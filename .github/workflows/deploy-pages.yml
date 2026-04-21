@@ -1,6 +1,7 @@
 name: Deploy Coverage Map to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
